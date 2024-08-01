@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Review Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Amazon Review Sentiment Analysis</h1>
+    <textarea id="reviewText" placeholder="Enter Amazon review text here"></textarea>
+    <button onclick="analyzeSentiment()">Analyze</button>
+    <div id="results"></div>
+
+    <script>
+        function analyzeSentiment() {
+            // Get the review text from the textarea
+            var reviewText = document.getElementById("reviewText").value;
+
+            // TODO: Send the review text to your Python script for analysis
+            // and display the results in the "results" div
+        }
+    </script>
+</body>
+</html>
